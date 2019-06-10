@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         startRunningCaptureSession()
         // Do any additional setup after loading the view.
     }
+
+    @IBAction func cameraButton_TouchUpInside(_ sender: Any) {
+        performSegue(withIdentifier: "showPhoto_Segue", sender: nil)
+    }
     
     func setupCaptureSession(){
         captureSession.sessionPreset=AVCaptureSession.Preset.photo
@@ -49,13 +53,12 @@ class ViewController: UIViewController {
     
     func setupInputOutput(){
         do {
-            let captureDeviceInput = try AVCaptureDeviceInput(device: currentCamera!)
+            let captureDeviceInput = try AVCaptureDeviceInput(device: currentCamera! )
             captureSession.addInput(captureDeviceInput)
             photoOutput?.setPreparedPhotoSettingsArray([AVCapturePhotoSettings(format:[AVVideoCodecKey: AVVideoCodecType.jpeg])],completionHandler: nil)
-            
-        }catch {
-            print(error)
-        }
+            }catch{
+                print("error")
+            }
     }
     func setupPerviewLayer(){
         cameraPerviewLayer =  AVCaptureVideoPreviewLayer(session: captureSession)
@@ -67,5 +70,6 @@ class ViewController: UIViewController {
     func startRunningCaptureSession(){
         captureSession.startRunning()
     }
+    
 }
 
