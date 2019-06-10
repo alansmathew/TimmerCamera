@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <action selector="camera:forEvent:" destination="YVL-Yz-3OF" eventType="touchUpInside" id="QxP-YZ-Kpx"/>
+                                    <action selector="camera:forEvent:" destination="YVL-Yz-3OF" eventType="touchUpInside" id="nll-jW-TQM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyb-PQ-96W">
