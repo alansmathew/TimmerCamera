@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185806862710631100D825F5 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806852710631100D825F5 /* PreviewViewController.swift */; };
+		185806B327106BF900D825F5 /* GalleryItemsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069527106BDE00D825F5 /* GalleryItemsDataSource.swift */; };
+		185806B427106BF900D825F5 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806AE27106BDE00D825F5 /* VideoViewController.swift */; };
+		185806B527106BF900D825F5 /* ImageFadeInHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806B027106BDE00D825F5 /* ImageFadeInHandler.swift */; };
+		185806B627106BF900D825F5 /* GalleryConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858068927106BDE00D825F5 /* GalleryConfiguration.swift */; };
+		185806B727106BF900D825F5 /* ItemBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806AA27106BDE00D825F5 /* ItemBaseController.swift */; };
+		185806B827106BF900D825F5 /* VideoScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858068E27106BDE00D825F5 /* VideoScrubber.swift */; };
+		185806B927106BF900D825F5 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806AD27106BDE00D825F5 /* Slider.swift */; };
+		185806BA27106BF900D825F5 /* GalleryItemsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A727106BDE00D825F5 /* GalleryItemsDelegate.swift */; };
+		185806BB27106BF900D825F5 /* GalleryDisplacedViewsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A927106BDE00D825F5 /* GalleryDisplacedViewsDataSource.swift */; };
+		185806BC27106BF900D825F5 /* GallerySwipeToDismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858068F27106BDE00D825F5 /* GallerySwipeToDismissTransition.swift */; };
+		185806BD27106BF900D825F5 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069427106BDE00D825F5 /* ImageViewController.swift */; };
+		185806BE27106BF900D825F5 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858068C27106BDE00D825F5 /* BlurView.swift */; };
+		185806BF27106BF900D825F5 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806AC27106BDE00D825F5 /* GalleryViewController.swift */; };
+		185806C027106BF900D825F5 /* GalleryPagingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806AF27106BDE00D825F5 /* GalleryPagingDataSource.swift */; };
+		185806C127106BF900D825F5 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858068B27106BDE00D825F5 /* UtilityFunctions.swift */; };
+		185806C227106BF900D825F5 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A827106BDE00D825F5 /* GalleryItem.swift */; };
+		185806C327106BF900D825F5 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069027106BDE00D825F5 /* VideoView.swift */; };
+		185806C427106BF900D825F5 /* ItemControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858068A27106BDE00D825F5 /* ItemControllerDelegate.swift */; };
+		185806C527106BF900D825F5 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858068D27106BDE00D825F5 /* ItemController.swift */; };
+		185806C627106BF900D825F5 /* LayoutEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806AB27106BDE00D825F5 /* LayoutEnums.swift */; };
+		185806C727106C0100D825F5 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069D27106BDE00D825F5 /* UIButton.swift */; };
+		185806C827106C0100D825F5 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A527106BDE00D825F5 /* UISlider.swift */; };
+		185806C927106C0100D825F5 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A227106BDE00D825F5 /* CGRect.swift */; };
+		185806CA27106C0100D825F5 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A027106BDE00D825F5 /* AVPlayer.swift */; };
+		185806CB27106C0100D825F5 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069B27106BDE00D825F5 /* UIBezierPath.swift */; };
+		185806CC27106C0100D825F5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069927106BDE00D825F5 /* UIColor.swift */; };
+		185806CD27106C0100D825F5 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A327106BDE00D825F5 /* UIApplication.swift */; };
+		185806CE27106C0100D825F5 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A127106BDE00D825F5 /* Bool.swift */; };
+		185806CF27106C0100D825F5 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069A27106BDE00D825F5 /* CGSize.swift */; };
+		185806D027106C0100D825F5 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A427106BDE00D825F5 /* UIScreen.swift */; };
+		185806D127106C0100D825F5 /* CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806A627106BDE00D825F5 /* CAShapeLayer.swift */; };
+		185806D227106C0100D825F5 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069E27106BDE00D825F5 /* UIViewController.swift */; };
+		185806D327106C0100D825F5 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069C27106BDE00D825F5 /* CGPoint.swift */; };
+		185806D427106C0100D825F5 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069727106BDE00D825F5 /* CALayer.swift */; };
+		185806D527106C0100D825F5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069827106BDE00D825F5 /* UIView.swift */; };
+		185806D627106C0100D825F5 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069F27106BDE00D825F5 /* UIImageView.swift */; };
+		185806D727106C0400D825F5 /* ThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069227106BDE00D825F5 /* ThumbnailsViewController.swift */; };
+		185806D827106C0400D825F5 /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858069327106BDE00D825F5 /* ThumbnailCell.swift */; };
+		185806DA27106CC900D825F5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185806D927106CC900D825F5 /* Config.swift */; };
 		99A7A88722AE1BF50093991C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7A88622AE1BF50093991C /* AppDelegate.swift */; };
 		99A7A88922AE1BF50093991C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7A88822AE1BF50093991C /* ViewController.swift */; };
 		99A7A88C22AE1BF50093991C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A7A88A22AE1BF50093991C /* Main.storyboard */; };
@@ -34,6 +74,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185806852710631100D825F5 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		1858068927106BDE00D825F5 /* GalleryConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryConfiguration.swift; sourceTree = "<group>"; };
+		1858068A27106BDE00D825F5 /* ItemControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemControllerDelegate.swift; sourceTree = "<group>"; };
+		1858068B27106BDE00D825F5 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		1858068C27106BDE00D825F5 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		1858068D27106BDE00D825F5 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		1858068E27106BDE00D825F5 /* VideoScrubber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoScrubber.swift; sourceTree = "<group>"; };
+		1858068F27106BDE00D825F5 /* GallerySwipeToDismissTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallerySwipeToDismissTransition.swift; sourceTree = "<group>"; };
+		1858069027106BDE00D825F5 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		1858069227106BDE00D825F5 /* ThumbnailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailsViewController.swift; sourceTree = "<group>"; };
+		1858069327106BDE00D825F5 /* ThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
+		1858069427106BDE00D825F5 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1858069527106BDE00D825F5 /* GalleryItemsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemsDataSource.swift; sourceTree = "<group>"; };
+		1858069727106BDE00D825F5 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		1858069827106BDE00D825F5 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		1858069927106BDE00D825F5 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		1858069A27106BDE00D825F5 /* CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		1858069B27106BDE00D825F5 /* UIBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
+		1858069C27106BDE00D825F5 /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		1858069D27106BDE00D825F5 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		1858069E27106BDE00D825F5 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		1858069F27106BDE00D825F5 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		185806A027106BDE00D825F5 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
+		185806A127106BDE00D825F5 /* Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		185806A227106BDE00D825F5 /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		185806A327106BDE00D825F5 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		185806A427106BDE00D825F5 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		185806A527106BDE00D825F5 /* UISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISlider.swift; sourceTree = "<group>"; };
+		185806A627106BDE00D825F5 /* CAShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAShapeLayer.swift; sourceTree = "<group>"; };
+		185806A727106BDE00D825F5 /* GalleryItemsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemsDelegate.swift; sourceTree = "<group>"; };
+		185806A827106BDE00D825F5 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		185806A927106BDE00D825F5 /* GalleryDisplacedViewsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDisplacedViewsDataSource.swift; sourceTree = "<group>"; };
+		185806AA27106BDE00D825F5 /* ItemBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBaseController.swift; sourceTree = "<group>"; };
+		185806AB27106BDE00D825F5 /* LayoutEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutEnums.swift; sourceTree = "<group>"; };
+		185806AC27106BDE00D825F5 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		185806AD27106BDE00D825F5 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		185806AE27106BDE00D825F5 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		185806AF27106BDE00D825F5 /* GalleryPagingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPagingDataSource.swift; sourceTree = "<group>"; };
+		185806B027106BDE00D825F5 /* ImageFadeInHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFadeInHandler.swift; sourceTree = "<group>"; };
+		185806B227106BDE00D825F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185806D927106CC900D825F5 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		99A7A88322AE1BF50093991C /* Timer camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A7A88622AE1BF50093991C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99A7A88822AE1BF50093991C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +155,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1858068727106BDE00D825F5 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1858068827106BDE00D825F5 /* Source */,
+				185806B127106BDE00D825F5 /* Supporting Files */,
+			);
+			path = ImageViewer;
+			sourceTree = "<group>";
+		};
+		1858068827106BDE00D825F5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1858068927106BDE00D825F5 /* GalleryConfiguration.swift */,
+				1858068A27106BDE00D825F5 /* ItemControllerDelegate.swift */,
+				1858068B27106BDE00D825F5 /* UtilityFunctions.swift */,
+				1858068C27106BDE00D825F5 /* BlurView.swift */,
+				1858068D27106BDE00D825F5 /* ItemController.swift */,
+				1858068E27106BDE00D825F5 /* VideoScrubber.swift */,
+				1858068F27106BDE00D825F5 /* GallerySwipeToDismissTransition.swift */,
+				1858069027106BDE00D825F5 /* VideoView.swift */,
+				1858069127106BDE00D825F5 /* Thumbnails Controller */,
+				1858069427106BDE00D825F5 /* ImageViewController.swift */,
+				1858069527106BDE00D825F5 /* GalleryItemsDataSource.swift */,
+				1858069627106BDE00D825F5 /* Extensions */,
+				185806A727106BDE00D825F5 /* GalleryItemsDelegate.swift */,
+				185806A827106BDE00D825F5 /* GalleryItem.swift */,
+				185806A927106BDE00D825F5 /* GalleryDisplacedViewsDataSource.swift */,
+				185806AA27106BDE00D825F5 /* ItemBaseController.swift */,
+				185806AB27106BDE00D825F5 /* LayoutEnums.swift */,
+				185806AC27106BDE00D825F5 /* GalleryViewController.swift */,
+				185806AD27106BDE00D825F5 /* Slider.swift */,
+				185806AE27106BDE00D825F5 /* VideoViewController.swift */,
+				185806AF27106BDE00D825F5 /* GalleryPagingDataSource.swift */,
+				185806B027106BDE00D825F5 /* ImageFadeInHandler.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1858069127106BDE00D825F5 /* Thumbnails Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1858069227106BDE00D825F5 /* ThumbnailsViewController.swift */,
+				1858069327106BDE00D825F5 /* ThumbnailCell.swift */,
+			);
+			path = "Thumbnails Controller";
+			sourceTree = "<group>";
+		};
+		1858069627106BDE00D825F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1858069727106BDE00D825F5 /* CALayer.swift */,
+				1858069827106BDE00D825F5 /* UIView.swift */,
+				1858069927106BDE00D825F5 /* UIColor.swift */,
+				1858069A27106BDE00D825F5 /* CGSize.swift */,
+				1858069B27106BDE00D825F5 /* UIBezierPath.swift */,
+				1858069C27106BDE00D825F5 /* CGPoint.swift */,
+				1858069D27106BDE00D825F5 /* UIButton.swift */,
+				1858069E27106BDE00D825F5 /* UIViewController.swift */,
+				1858069F27106BDE00D825F5 /* UIImageView.swift */,
+				185806A027106BDE00D825F5 /* AVPlayer.swift */,
+				185806A127106BDE00D825F5 /* Bool.swift */,
+				185806A227106BDE00D825F5 /* CGRect.swift */,
+				185806A327106BDE00D825F5 /* UIApplication.swift */,
+				185806A427106BDE00D825F5 /* UIScreen.swift */,
+				185806A527106BDE00D825F5 /* UISlider.swift */,
+				185806A627106BDE00D825F5 /* CAShapeLayer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		185806B127106BDE00D825F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185806B227106BDE00D825F5 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		99A7A87A22AE1BF50093991C = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +256,15 @@
 		99A7A88522AE1BF50093991C /* Timer camera */ = {
 			isa = PBXGroup;
 			children = (
+				185806852710631100D825F5 /* PreviewViewController.swift */,
 				99A7A88622AE1BF50093991C /* AppDelegate.swift */,
 				99A7A88822AE1BF50093991C /* ViewController.swift */,
+				185806D927106CC900D825F5 /* Config.swift */,
 				99A7A88A22AE1BF50093991C /* Main.storyboard */,
 				99A7A88D22AE1BF60093991C /* Assets.xcassets */,
 				99A7A88F22AE1BF60093991C /* LaunchScreen.storyboard */,
 				99A7A89222AE1BF60093991C /* Info.plist */,
+				1858068727106BDE00D825F5 /* ImageViewer */,
 			);
 			path = "Timer camera";
 			sourceTree = "<group>";
@@ -256,8 +418,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185806C827106C0100D825F5 /* UISlider.swift in Sources */,
+				185806C127106BF900D825F5 /* UtilityFunctions.swift in Sources */,
+				185806C227106BF900D825F5 /* GalleryItem.swift in Sources */,
+				185806C527106BF900D825F5 /* ItemController.swift in Sources */,
+				185806D327106C0100D825F5 /* CGPoint.swift in Sources */,
+				185806CC27106C0100D825F5 /* UIColor.swift in Sources */,
+				185806B327106BF900D825F5 /* GalleryItemsDataSource.swift in Sources */,
+				185806B727106BF900D825F5 /* ItemBaseController.swift in Sources */,
+				185806BE27106BF900D825F5 /* BlurView.swift in Sources */,
+				185806C027106BF900D825F5 /* GalleryPagingDataSource.swift in Sources */,
+				185806BB27106BF900D825F5 /* GalleryDisplacedViewsDataSource.swift in Sources */,
+				185806BC27106BF900D825F5 /* GallerySwipeToDismissTransition.swift in Sources */,
+				185806D827106C0400D825F5 /* ThumbnailCell.swift in Sources */,
+				185806BF27106BF900D825F5 /* GalleryViewController.swift in Sources */,
+				185806CF27106C0100D825F5 /* CGSize.swift in Sources */,
+				185806D127106C0100D825F5 /* CAShapeLayer.swift in Sources */,
+				185806D727106C0400D825F5 /* ThumbnailsViewController.swift in Sources */,
+				185806DA27106CC900D825F5 /* Config.swift in Sources */,
+				185806D227106C0100D825F5 /* UIViewController.swift in Sources */,
+				185806D627106C0100D825F5 /* UIImageView.swift in Sources */,
+				185806BA27106BF900D825F5 /* GalleryItemsDelegate.swift in Sources */,
+				185806C727106C0100D825F5 /* UIButton.swift in Sources */,
+				185806CB27106C0100D825F5 /* UIBezierPath.swift in Sources */,
+				185806C927106C0100D825F5 /* CGRect.swift in Sources */,
+				185806D427106C0100D825F5 /* CALayer.swift in Sources */,
+				185806C627106BF900D825F5 /* LayoutEnums.swift in Sources */,
+				185806B527106BF900D825F5 /* ImageFadeInHandler.swift in Sources */,
+				185806CD27106C0100D825F5 /* UIApplication.swift in Sources */,
+				185806B827106BF900D825F5 /* VideoScrubber.swift in Sources */,
+				185806B927106BF900D825F5 /* Slider.swift in Sources */,
+				185806B627106BF900D825F5 /* GalleryConfiguration.swift in Sources */,
+				185806C427106BF900D825F5 /* ItemControllerDelegate.swift in Sources */,
+				185806CA27106C0100D825F5 /* AVPlayer.swift in Sources */,
 				99A7A88922AE1BF50093991C /* ViewController.swift in Sources */,
+				185806BD27106BF900D825F5 /* ImageViewController.swift in Sources */,
+				185806C327106BF900D825F5 /* VideoView.swift in Sources */,
+				185806D527106C0100D825F5 /* UIView.swift in Sources */,
+				185806D027106C0100D825F5 /* UIScreen.swift in Sources */,
 				99A7A88722AE1BF50093991C /* AppDelegate.swift in Sources */,
+				185806B427106BF900D825F5 /* VideoViewController.swift in Sources */,
+				185806862710631100D825F5 /* PreviewViewController.swift in Sources */,
+				185806CE27106C0100D825F5 /* Bool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +635,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TJ37D87VC5;
+				DEVELOPMENT_TEAM = 9AU9N7XG22;
 				INFOPLIST_FILE = "Timer camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TJ37D87VC5;
+				DEVELOPMENT_TEAM = 9AU9N7XG22;
 				INFOPLIST_FILE = "Timer camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
